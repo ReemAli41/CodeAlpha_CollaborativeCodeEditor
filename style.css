@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-6 {
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+h2 {
+  color: #4285f4;
+}
+
+#language-select {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+textarea.CodeMirror {
+  height: 400px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 10px;
+}
+
+.CodeMirror {
+  background-color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #4285f4;
+  border-color: #4285f4;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0043ca;
+  border-color: #0043ca;
+}
+
+
+.cm-s-default .cm-keyword {
+  color: #e91e63;
+}
+
+.cm-s-default .cm-variable {
+  color: #2196f3;
+}
+
+.cm-s-default .cm-property {
+  color: #4caf50;
+}
+
+.cm-s-default .cm-operator {
+  color: #ff9800;
+}
+
+.cm-s-default .cm-comment {
+  color: #757575;
+}
+
+.cm-s-default .cm-string {
+  color: #ff5722;
+}
+
+
+.cm-s-python .cm-keyword {
+  color: #673ab7;
+}
+
+.cm-s-python .cm-variable {
+  color: #2196f3;
+}
+
+.cm-s-python .cm-def {
+  color: #333;
+}
+
+.cm-s-python .cm-operator {
+  color: #4caf50;
+}
+
+.cm-s-python .cm-comment {
+  color: #808080;
+}
+
+.cm-s-python .cm-string {
+  color: #008000;
+}
+
+.cm-s-java .cm-keyword {
+  color: #1565c0;
+}
+
+.cm-s-java .cm-variable {
+  color: #000000;
+}
+
+.cm-s-java .cm-def {
+  color: #000000;
+}
+
+.cm-s-java .cm-operator {
+  color: #000000;
+}
+
+.cm-s-java .cm-comment {
+  color: #808080;
+}
+
+.cm-s-java .cm-string {
+  color: #008000;
+}
+

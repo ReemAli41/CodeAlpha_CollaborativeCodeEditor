@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Code Editor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/theme/material.css"> <!-- Added theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-12 text-center mb-4">
+       <label for="language-select">Select Programming Language:</label>
+       <select id="language-select" class="form-control">
+         <option value="javascript">JavaScript</option>
+         <option value="python">Python</option>
+         <option value="java">Java</option>
+       </select>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-6">
+       <h2>User 1</h2>
+       <textarea id="code-editor-1"></textarea>
+     </div>
+     <div class="col-6">
+       <h2>User 2</h2>
+       <textarea id="code-editor-2"></textarea>
+     </div>
+   </div>
+ </div>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/meta.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/python/python.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/clike/clike.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
